@@ -49,6 +49,12 @@ main > section > h2 {
   width: 100%;
   margin-bottom: 15px;
 }
+main > section > h4 {
+  width: 100%;
+}
+main > section > p {
+  width: 50%;
+}
 img {
   position: absolute;
   right: 150px;
