@@ -25,7 +25,9 @@ nav > ul > li {
 nav > ul > li > a {
   font-size: 16px;
   font-weight: bolder;
-  color: #e67e22;
+  background: linear-gradient(135deg, #e67e22, #cf6e19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
 }
 h1 {
@@ -35,7 +37,6 @@ h1 {
   letter-spacing: 3px;
   word-spacing: 0px;
   font-size: 25px;
-  color: white;
 }
 
 main {
@@ -53,7 +54,8 @@ main > section > h4 {
   width: 100%;
 }
 main > section > p {
-  width: 50%;
+  word-spacing: 2px;
+  width: 500px;
 }
 img {
   position: absolute;
