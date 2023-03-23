@@ -30,6 +30,7 @@ nav > ul > li > a {
   -webkit-text-fill-color: transparent;
   text-decoration: none;
 }
+
 h1 {
   background: linear-gradient(135deg, #e67e22, #e91e63);
   -webkit-background-clip: text;
@@ -37,6 +38,7 @@ h1 {
   letter-spacing: 3px;
   word-spacing: 0px;
   font-size: 25px;
+  animation: moving 5s;
 }
 
 main {
